@@ -24,12 +24,12 @@ public class BlockingQueueDome1 {
         System.out.println(blockingQueue.offer("b"));
         System.out.println(blockingQueue.offer("c"));
         System.out.println(blockingQueue.offer("d"));   //并不抛出异常，返回false
-        System.out.println(blockingQueue.offer("G",3l, TimeUnit.SECONDS));   //等待特定时间
+        System.out.println(blockingQueue.offer("G",3L, TimeUnit.SECONDS));   //等待特定时间
         System.out.println(blockingQueue.poll());
         System.out.println(blockingQueue.poll());
         System.out.println(blockingQueue.poll());
         System.out.println(blockingQueue.poll());    //没获取到元素返回null
-        System.out.println(blockingQueue.poll(3l, TimeUnit.SECONDS));   //等待特定时间
+        System.out.println(blockingQueue.poll(3L, TimeUnit.SECONDS));   //等待特定时间
 
 
         System.out.println("------------------------------------------------");
