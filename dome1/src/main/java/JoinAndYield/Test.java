@@ -27,7 +27,7 @@ public class Test {
         t2.start();
         Thread.yield();
         /**
-         * 让出当前线程  可能没有任何作用
+         * 让出当前线程  可能会没有任何作用
          */
         System.out.println("主线程结束");
     }
