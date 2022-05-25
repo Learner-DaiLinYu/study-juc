@@ -18,5 +18,10 @@ public class Test {
                 e.printStackTrace();
             }
         }).start();
+
+//        int i=1;
+//        if(true || ++i>1){
+//            System.out.println(i);
+//        }
     }
 }
